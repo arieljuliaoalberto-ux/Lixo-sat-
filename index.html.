@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LuandaSat: sistema inteligente de monitorização de resíduos em Angola.">
+  <title>LuandaSat | Monitorização Inteligente</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="#">LUANDA<span>SAT</span></a>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#satellite">Satélite</a>
+      <a href="#mapa">Mapa</a>
+      <a href="#monitorizacao">Monitorização</a>
+      <a href="#sobre">Sobre</a>
+    </nav>
+    <span class="status"><i></i> SISTEMA DEMO ONLINE</span>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">TECNOLOGIA ESPACIAL · ANGOLA</p>
+        <h1>Uma nova perspetiva<br>sobre <span>Angola.</span></h1>
+        <p class="intro">
+          Monitorização inteligente de resíduos através de
+          tecnologia, dados e uma visão conectada do nosso planeta.
+        </p>
+        <div class="actions">
+          <a class="primary" href="#mapa">Explorar o mapa ↗</a>
+          <a class="secondary" href="#sobre">Conhecer o projeto</a>
+        </div>
+      </div>
+
+      <div class="earth-panel" id="satellite">
+        <div class="orbit orbit-one"></div>
+        <div class="earth">
+          <div class="angola">ANGOLA</div>
+        </div>
+        <div class="satellite">✦</div>
+        <div class="earth-caption">
+          <span>VISÃO ORBITAL</span>
+          <span>DEMO · DADOS SIMULADOS</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="dashboard" id="monitorizacao">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">CENTRO DE CONTROLO</p>
+          <h2>Monitorização</h2>
+        </div>
+        <span class="demo-tag">AMBIENTE DE DEMONSTRAÇÃO</span>
+      </div>
+
+      <div class="stats">
+        <article class="stat">
+          <span>Áreas monitorizadas</span>
+          <strong>08</strong>
+          <small>Locais de demonstração</small>
+        </article>
+        <article class="stat">
+          <span>Alertas registados</span>
+          <strong>03</strong>
+          <small>Dados simulados</small>
+        </article>
+        <article class="stat">
+          <span>Viaturas</span>
+          <strong>04</strong>
+          <small>Posições simuladas</small>
+        </article>
+      </div>
+    </section>
+
+    <section class="map-section" id="mapa">
+      <p class="eyebrow">INTELIGÊNCIA TERRITORIAL</p>
+      <h2>Mapa de monitorização</h2>
+      <div class="map-placeholder">
+        <div class="map-grid"></div>
+        <div class="map-label">ANGOLA · LUANDA</div>
+        <div class="map-point point-one">● <span>Área de demonstração</span></div>
+        <div class="map-point point-two">● <span>Área de demonstração</span></div>
+        <div class="map-point point-three">● <span>Área de demonstração</span></div>
+        <p>Visualização ilustrativa · Sem localização real</p>
+      </div>
+    </section>
+
+    <footer id="sobre">
+      <span class="logo">LUANDA<span>SAT</span></span>
+      <p>Projeto académico de monitorização inteligente de resíduos em Angola.</p>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
