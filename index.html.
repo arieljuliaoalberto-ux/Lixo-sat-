@@ -1,4 +1,9 @@
-
+<style>
+  body {
+    background: #050914 !important;
+    color: white !important;
+  }
+</style>
 <!DOCTYPE html>
 <html lang="pt">
 <head>
